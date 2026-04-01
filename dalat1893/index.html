@@ -3,72 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DALAT 1893 — 大叻高原礼品 | Da Lat Highland Gifts Vietnam</title>
-
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="DALAT 1893 — 越南大叻高原精选礼品，包括咖啡、蜂蜜、腰果、朝鲜蓟茶等，以复古铁盒精心礼装。支持国际配送至新加坡、中国、澳大利亚。Da Lat Highland gifts, coffee, honey and cashew gift sets with vintage tin box packaging." />
-  <meta name="keywords" content="大叻礼品, Da Lat gifts, 越南伴手礼, Vietnam souvenirs, 大叻咖啡, Da Lat coffee, 大叻蜂蜜, highland honey, 腰果礼盒, cashew gift box, 铁盒礼装, tin box gifts, 越南高原, Vietnam highland, DALAT 1893, 大叻特产, 新加坡越南礼品" />
-  <meta name="author" content="DALAT 1893" />
-  <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://www.dalat1893.com/" />
-
-  <!-- Open Graph (for sharing on WeChat, Facebook, etc.) -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.dalat1893.com/" />
-  <meta property="og:title" content="DALAT 1893 — 大叻高原礼品 | Da Lat Highland Gifts" />
-  <meta property="og:description" content="越南大叻高原精选礼品——咖啡、蜂蜜、腰果、铁盒礼装，支持国际配送。Premium Da Lat highland gifts with vintage tin box packaging." />
-  <meta property="og:image" content="https://www.dalat1893.com/assets/og-image.jpg" />
-  <meta property="og:locale" content="zh_CN" />
-  <meta property="og:locale:alternate" content="en_US" />
-  <meta property="og:site_name" content="DALAT 1893" />
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="DALAT 1893 — Da Lat Highland Gifts" />
-  <meta name="twitter:description" content="Premium Vietnam highland gifts with vintage tin box packaging. Coffee, honey, cashew and more." />
-  <meta name="twitter:image" content="https://www.dalat1893.com/assets/og-image.jpg" />
-
-  <!-- Structured Data (JSON-LD) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Store",
-    "name": "DALAT 1893",
-    "description": "越南大叻高原精选礼品，包括咖啡、蜂蜜、腰果等，以复古铁盒精心礼装。",
-    "url": "https://www.dalat1893.com",
-    "logo": "https://www.dalat1893.com/assets/images/logo.png",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Da Lat",
-      "addressRegion": "Lam Dong",
-      "addressCountry": "VN"
-    },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+65-8942-7926",
-      "contactType": "customer service",
-      "availableLanguage": ["Chinese", "English"]
-    },
-    "sameAs": [
-      "https://www.instagram.com/dalat1893",
-      "https://www.facebook.com/dalat1893"
-    ]
-  }
-  </script>
-
+  <title>DALAT 1893 · 大叻高原礼品</title>
+  <meta name="description" content="来自越南大叻高原的精品礼装——咖啡、蜂蜜、腰果、香料，以手工复古铁盒精心包装。" />
+  <meta property="og:title" content="DALAT 1893 · 大叻高原礼品" />
+  <meta property="og:description" content="来自越南大叻1893年以来的高原馈礼" />
+  <meta property="og:image" content="og-image.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Noto+Serif+SC:wght@300;400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Noto+Serif+SC:wght@300;400;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
-<!-- ===== NAVIGATION ===== -->
+<!-- ===== NAVBAR ===== -->
 <header class="nav-header" id="navbar">
   <div class="nav-inner">
-    <div class="nav-logo">
+    <a href="#" class="nav-logo">
       <span class="logo-text">DALAT</span>
       <span class="logo-year">1893</span>
-    </div>
+    </a>
     <nav class="nav-links">
       <a href="#story" data-i18n="nav.story">品牌故事</a>
       <a href="#products" data-i18n="nav.products">礼品系列</a>
@@ -76,11 +29,10 @@
       <a href="#contact" data-i18n="nav.contact">联系我们</a>
     </nav>
     <div class="nav-actions">
-      <button class="cart-btn" id="cartBtn">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
-          <line x1="3" y1="6" x2="21" y2="6"/>
-          <path d="M16 10a4 4 0 0 1-8 0"/>
+      <button class="cart-btn" id="cartBtn" aria-label="购物车">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 01-8 0"/>
         </svg>
         <span class="cart-count" id="cartCount">0</span>
       </button>
@@ -91,14 +43,13 @@
 
 <!-- ===== HERO ===== -->
 <section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-pattern"></div>
   <div class="hero-overlay"></div>
-  <div class="hero-bg">
-    <div class="hero-pattern"></div>
-  </div>
   <div class="hero-content">
     <p class="hero-sub" data-i18n="hero.sub">越南大叻 · 高原馈礼</p>
     <h1 class="hero-title">
-      <span>DALAT</span>
+      DALAT
       <span class="hero-title-year">1893</span>
     </h1>
     <p class="hero-desc" data-i18n-html="hero.desc">自1893年，大叻以其云雾与芬芳闻名于世<br/>我们将这片高原的馈赠，以最美的形式呈现给您</p>
@@ -108,8 +59,8 @@
     </div>
   </div>
   <div class="hero-scroll">
-    <span data-i18n="hero.scroll">向下滚动</span>
     <div class="scroll-line"></div>
+    <span data-i18n="hero.scroll">向下滚动</span>
   </div>
 </section>
 
@@ -121,17 +72,17 @@
         <div class="story-frame">
           <div class="story-img-placeholder">
             <div class="map-illustration">
-              <svg viewBox="0 0 300 400" class="vietnam-map">
-                <path d="M180,20 C200,25 220,40 215,60 C210,80 230,90 225,110 C220,130 200,140 205,160 C210,180 225,190 220,210 C215,230 195,240 190,260 C185,280 200,290 195,320 C190,350 170,370 155,380 C140,390 120,385 110,370 C100,355 105,330 95,315 C85,300 65,295 60,275 C55,255 70,240 68,220 C66,200 50,190 55,170 C60,150 80,145 85,125 C90,105 75,90 80,70 C85,50 105,40 120,30 C135,20 160,15 180,20Z" fill="#c8a96e" opacity="0.3" stroke="#c8a96e" stroke-width="1"/>
-                <circle cx="148" cy="240" r="8" fill="#8b1a1a" opacity="0.8"/>
-                <text x="160" y="244" font-size="11" fill="#3d2b1f" font-family="serif">大叻</text>
-                <text x="125" y="260" font-size="9" fill="#8b6914" font-family="serif">Da Lat</text>
-                <path d="M148,232 L148,180" stroke="#8b1a1a" stroke-width="0.5" stroke-dasharray="3,3" opacity="0.5"/>
+              <svg class="vietnam-map" viewBox="0 0 200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M120 10 C130 15, 145 25, 150 40 C155 55, 148 70, 155 85 C162 100, 170 110, 165 130 C160 150, 145 160, 140 175 C135 190, 138 205, 130 218 C122 231, 108 240, 95 248 C82 256, 70 260, 60 255 C50 250, 45 238, 48 225 C51 212, 62 205, 65 192 C68 179, 60 168, 58 155 C56 142, 62 130, 58 118 C54 106, 42 100, 40 88 C38 76, 46 65, 50 53 C54 41, 52 28, 62 20 C72 12, 110 5, 120 10Z" fill="rgba(200,169,110,0.25)" stroke="rgba(200,169,110,0.6)" stroke-width="1.5"/>
+                <circle cx="95" cy="160" r="5" fill="var(--gold)" opacity="0.9"/>
+                <circle cx="95" cy="160" r="9" fill="none" stroke="var(--gold)" stroke-width="1" opacity="0.5"/>
+                <text x="105" y="164" font-family="Inter" font-size="9" fill="rgba(200,169,110,0.8)" letter-spacing="0.05em">大叻</text>
+                <text x="60" y="270" font-family="Inter" font-size="7" fill="rgba(200,169,110,0.4)" letter-spacing="0.15em" text-anchor="middle">VIETNAM</text>
               </svg>
             </div>
           </div>
           <div class="story-year-badge">
-            <span>Est.</span>
+            <span>SINCE</span>
             <strong>1893</strong>
           </div>
         </div>
@@ -152,7 +103,7 @@
             <span data-i18n="story.stat2">年城市历史</span>
           </div>
           <div class="stat">
-            <strong>6</strong>
+            <strong>14</strong>
             <span data-i18n="story.stat3">精选礼品系列</span>
           </div>
         </div>
@@ -170,7 +121,7 @@
       <p class="section-desc" data-i18n="products.desc">每一款礼品均选用大叻高原原产，以手工制作的复古铁盒精心包装，是馈赠亲友的最佳伴手礼。</p>
     </div>
     <div class="products-grid" id="productsGrid">
-      <!-- Products injected by JS -->
+      <!-- Rendered by JS -->
     </div>
   </div>
 </section>
@@ -186,28 +137,28 @@
         <p data-i18n="craft.p2">铁盒可在礼品内容用尽后，作为储物盒、装饰摆件长期使用——承载的不仅是味道，更是一段旅途的记忆。</p>
         <ul class="craft-features">
           <li>
-            <div class="feature-icon">◈</div>
+            <span class="feature-icon">◆</span>
             <div>
               <strong data-i18n="craft.f1.title">复古浮雕铁盒</strong>
               <span data-i18n="craft.f1.desc">以大叻历史地图与法式建筑为图案</span>
             </div>
           </li>
           <li>
-            <div class="feature-icon">◈</div>
+            <span class="feature-icon">◆</span>
             <div>
               <strong data-i18n="craft.f2.title">原产地溯源</strong>
               <span data-i18n="craft.f2.desc">每盒附有产地证明与农家信息</span>
             </div>
           </li>
           <li>
-            <div class="feature-icon">◈</div>
+            <span class="feature-icon">◆</span>
             <div>
               <strong data-i18n="craft.f3.title">个性化刻字</strong>
               <span data-i18n="craft.f3.desc">可在铁盒底部定制专属文字</span>
             </div>
           </li>
           <li>
-            <div class="feature-icon">◈</div>
+            <span class="feature-icon">◆</span>
             <div>
               <strong data-i18n="craft.f4.title">礼品包装服务</strong>
               <span data-i18n="craft.f4.desc">提供精美礼袋与手写贺卡</span>
@@ -221,21 +172,21 @@
             <div class="box-lid"></div>
             <div class="box-body">
               <span class="box-label" data-i18n="craft.box1">大叻咖啡</span>
-              <span class="box-sublabel">COFFEE</span>
+              <span class="box-sublabel">DALAT 1893</span>
             </div>
           </div>
           <div class="box-card box-2">
             <div class="box-lid"></div>
             <div class="box-body">
               <span class="box-label" data-i18n="craft.box2">高原蜂蜜</span>
-              <span class="box-sublabel">HONEY</span>
+              <span class="box-sublabel">DALAT 1893</span>
             </div>
           </div>
           <div class="box-card box-3">
             <div class="box-lid"></div>
             <div class="box-body">
               <span class="box-label" data-i18n="craft.box3">腰果礼盒</span>
-              <span class="box-sublabel">CASHEW</span>
+              <span class="box-sublabel">DALAT 1893</span>
             </div>
           </div>
         </div>
@@ -245,80 +196,80 @@
 </section>
 
 <!-- ===== GIFT SETS ===== -->
-<section class="gift-sets">
+<section class="gift-sets" id="gift-sets">
   <div class="container">
     <div class="section-header">
       <span class="section-label" data-i18n="sets.label">礼品套装</span>
       <h2 class="section-title" data-i18n="sets.title">精选组合 · 一盒大叻</h2>
     </div>
     <div class="sets-grid">
-      <div class="set-card set-premium">
+      <div class="set-card fade-in">
         <div class="set-badge" data-i18n="set1.badge">畅销</div>
-        <div class="set-icon">🏔</div>
+        <div class="set-icon">☕</div>
         <h3 data-i18n="set1.name">云雾套装</h3>
         <p data-i18n="set1.desc">咖啡 + 蜂蜜 + 香氛蜡烛</p>
         <div class="set-items" data-i18n="set1.items">3件礼品 · 精美铁盒</div>
-        <div class="set-price">¥388</div>
-        <button class="btn-primary" data-i18n="cart.add" onclick="addSetToCart('set1', 388)">加入购物车</button>
+        <div class="set-price">¥368</div>
+        <button class="btn-primary btn-full" onclick="addSetToCart('set1', 368)" data-i18n="cart.add">加入购物车</button>
       </div>
-      <div class="set-card set-deluxe">
+      <div class="set-card fade-in">
         <div class="set-badge set-badge-gold" data-i18n="set2.badge">尊享</div>
-        <div class="set-icon">👑</div>
+        <div class="set-icon">🎁</div>
         <h3 data-i18n="set2.name">高原尊享套装</h3>
         <p data-i18n="set2.desc">全系列6款精选 · 礼盒装</p>
         <div class="set-items" data-i18n="set2.items">6件礼品 · 木质礼盒</div>
-        <div class="set-price">¥888</div>
-        <button class="btn-primary" data-i18n="cart.add" onclick="addSetToCart('set2', 888)">加入购物车</button>
+        <div class="set-price">¥798</div>
+        <button class="btn-primary btn-full" onclick="addSetToCart('set2', 798)" data-i18n="cart.add">加入购物车</button>
       </div>
-      <div class="set-card set-mini">
+      <div class="set-card fade-in">
         <div class="set-icon">🌿</div>
         <h3 data-i18n="set3.name">初遇大叻</h3>
         <p data-i18n="set3.desc">腰果 + 柿饼 + 朝鲜蓟茶</p>
         <div class="set-items" data-i18n="set3.items">3件礼品 · 精美铁盒</div>
-        <div class="set-price">¥268</div>
-        <button class="btn-primary" data-i18n="cart.add" onclick="addSetToCart('set3', 268)">加入购物车</button>
+        <div class="set-price">¥298</div>
+        <button class="btn-primary btn-full" onclick="addSetToCart('set3', 298)" data-i18n="cart.add">加入购物车</button>
       </div>
     </div>
   </div>
 </section>
 
 <!-- ===== TESTIMONIALS ===== -->
-<section class="testimonials">
+<section class="testimonials" id="testimonials">
   <div class="container">
     <div class="section-header">
       <span class="section-label" data-i18n="testimonials.label">客户评价</span>
       <h2 class="section-title" data-i18n="testimonials.title">来自世界各地的心声</h2>
     </div>
     <div class="testimonials-grid">
-      <div class="testimonial-card">
+      <div class="testimonial-card fade-in">
         <div class="stars">★★★★★</div>
         <p data-i18n="t1.text">"第一次在大叻买到这款咖啡礼盒，铁盒的设计太美了，完全没舍得扔掉。咖啡的香气也非常独特，比市面上的越南咖啡更有层次感。"</p>
         <div class="reviewer">
-          <div class="reviewer-avatar">L</div>
+          <div class="reviewer-avatar">S</div>
           <div>
-            <strong>Lisa Chen</strong>
+            <strong>— Singapore</strong>
             <span data-i18n="t1.from">来自新加坡</span>
           </div>
         </div>
       </div>
-      <div class="testimonial-card">
+      <div class="testimonial-card fade-in">
         <div class="stars">★★★★★</div>
         <p data-i18n="t2.text">"作为回国礼物送给家人，大家都非常喜欢。包装精致大气，完全不像普通的旅游纪念品，更像是高档礼品店里才有的东西。"</p>
         <div class="reviewer">
-          <div class="reviewer-avatar">M</div>
+          <div class="reviewer-avatar">H</div>
           <div>
-            <strong>Michael Wang</strong>
+            <strong>— Hong Kong</strong>
             <span data-i18n="t2.from">来自香港</span>
           </div>
         </div>
       </div>
-      <div class="testimonial-card">
+      <div class="testimonial-card fade-in">
         <div class="stars">★★★★★</div>
-        <p data-i18n="t3.text">"The packaging is absolutely stunning. I bought the honey and cashew set as a wedding gift and everyone asked where I found such a beautiful present. Will definitely order again!"</p>
+        <p data-i18n="t3.text">"The packaging is absolutely stunning. I bought the honey and cashew set as a wedding gift and everyone asked where I found such a beautiful present."</p>
         <div class="reviewer">
-          <div class="reviewer-avatar">S</div>
+          <div class="reviewer-avatar">A</div>
           <div>
-            <strong>Sarah Mitchell</strong>
+            <strong>— Australia</strong>
             <span data-i18n="t3.from">来自澳大利亚</span>
           </div>
         </div>
@@ -340,11 +291,11 @@
             <span class="contact-icon">📍</span>
             <div>
               <strong data-i18n="contact.addr.title">门店地址</strong>
-              <span>Da Lat, Lam Dong Province, Vietnam</span>
+              <span>3 Hùynh Thúc Kháng, Phường 10, Đà Lạt, Lâm Đồng, Việt Nam</span>
             </div>
           </div>
           <div class="contact-item">
-            <span class="contact-icon">📦</span>
+            <span class="contact-icon">🚚</span>
             <div>
               <strong data-i18n="contact.shipping.title">全球配送</strong>
               <span data-i18n="contact.shipping.desc">支持国际快递至中国、新加坡、澳大利亚等地</span>
@@ -354,21 +305,21 @@
             <span class="contact-icon">💬</span>
             <div>
               <strong data-i18n="contact.wechat.title">微信咨询</strong>
-              <span>artipsg</span>
+              <span>dalat1893</span>
             </div>
           </div>
           <div class="contact-item">
             <span class="contact-icon">📱</span>
             <div>
               <strong data-i18n="contact.whatsapp.title">WhatsApp</strong>
-              <span><a href="https://wa.me/6589427926" style="color:inherit;text-decoration:none;">+65 8942 7926</a></span>
+              <span>+84 263 123 4567</span>
             </div>
           </div>
           <div class="contact-item">
-            <span class="contact-icon">📧</span>
+            <span class="contact-icon">✉️</span>
             <div>
               <strong data-i18n="contact.email.title">邮件</strong>
-              <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ddb7b4bcb2bab0efedefef9dbab0bcb4b1f3beb2b0">[email&#160;protected]</a></span>
+              <span data-i18n="contact.email.desc">jiaogm2022@gmail.com</span>
             </div>
           </div>
         </div>
@@ -377,15 +328,15 @@
         <form id="contactForm">
           <div class="form-group">
             <label data-i18n="form.name.label">您的姓名</label>
-            <input type="text" data-i18n-placeholder="form.name.placeholder" placeholder="请输入姓名" />
+            <input type="text" required data-i18n-placeholder="form.name.placeholder" placeholder="请输入姓名" />
           </div>
           <div class="form-group">
             <label data-i18n="form.contact.label">联系方式（邮箱或微信）</label>
-            <input type="text" data-i18n-placeholder="form.contact.placeholder" placeholder="请输入联系方式" />
+            <input type="text" required data-i18n-placeholder="form.contact.placeholder" placeholder="请输入联系方式" />
           </div>
           <div class="form-group">
             <label data-i18n="form.message.label">需求说明</label>
-            <textarea rows="5" data-i18n-placeholder="form.message.placeholder" placeholder="请告诉我们您的需求，例如：礼品数量、定制内容、配送地址等..."></textarea>
+            <textarea rows="5" required data-i18n-placeholder="form.message.placeholder" placeholder="请告诉我们您的需求..."></textarea>
           </div>
           <button type="submit" class="btn-primary btn-full" data-i18n="form.submit">发送询价</button>
         </form>
@@ -399,9 +350,9 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <div class="nav-logo">
+        <div class="nav-logo" style="margin-bottom:1rem;">
           <span class="logo-text">DALAT</span>
-          <span class="logo-year">1893</span>
+          <span class="logo-year" style="color:var(--gold);">1893</span>
         </div>
         <p data-i18n="footer.tagline">将大叻高原的馈赠，以最美的形式传递给世界每一个角落。</p>
         <div class="social-links">
@@ -413,26 +364,24 @@
       <div class="footer-nav">
         <h4 data-i18n="footer.products">产品系列</h4>
         <ul>
-          <li><a href="#" data-i18n="footer.fp1">大叻咖啡</a></li>
-          <li><a href="#" data-i18n="footer.fp2">高原蜂蜜</a></li>
-          <li><a href="#" data-i18n="footer.fp3">腰果系列</a></li>
-          <li><a href="#" data-i18n="footer.fp4">朝鲜蓟茶</a></li>
-          <li><a href="#" data-i18n="footer.fp5">柿饼礼盒</a></li>
-          <li><a href="#" data-i18n="footer.fp6">香氛系列</a></li>
-          <li><a href="#" data-i18n="footer.fp7">巧克力系列</a></li>
-          <li><a href="#" data-i18n="footer.fp8">香料礼盒</a></li>
-          <li><a href="#" data-i18n="footer.fp9">水果干系列</a></li>
-          <li><a href="#" data-i18n="footer.fp10">糕点系列</a></li>
+          <li><a href="#products" data-i18n="footer.fp1">大叻咖啡</a></li>
+          <li><a href="#products" data-i18n="footer.fp2">高原蜂蜜</a></li>
+          <li><a href="#products" data-i18n="footer.fp3">腰果礼盒</a></li>
+          <li><a href="#products" data-i18n="footer.fp4">朝鲜蓟茶</a></li>
+          <li><a href="#products" data-i18n="footer.fp5">柿饼礼盒</a></li>
+          <li><a href="#products" data-i18n="footer.fp8">香料礼盒</a></li>
+          <li><a href="#products" data-i18n="footer.fp9">水果干系列</a></li>
+          <li><a href="#products" data-i18n="footer.fp10">糕点系列</a></li>
         </ul>
       </div>
       <div class="footer-nav">
         <h4 data-i18n="footer.services">服务支持</h4>
         <ul>
-          <li><a href="#" data-i18n="footer.fs1">企业定制</a></li>
-          <li><a href="#" data-i18n="footer.fs2">婚礼伴手礼</a></li>
-          <li><a href="#" data-i18n="footer.fs3">国际配送说明</a></li>
-          <li><a href="#" data-i18n="footer.fs4">退换货政策</a></li>
-          <li><a href="#" data-i18n="footer.fs5">常见问题</a></li>
+          <li><a href="#contact" data-i18n="footer.fs1">企业定制</a></li>
+          <li><a href="#contact" data-i18n="footer.fs2">婚礼伴手礼</a></li>
+          <li><a href="#contact" data-i18n="footer.fs3">国际配送说明</a></li>
+          <li><a href="#contact" data-i18n="footer.fs4">退换货政策</a></li>
+          <li><a href="#contact" data-i18n="footer.fs5">常见问题</a></li>
         </ul>
       </div>
       <div class="footer-nav">
@@ -445,7 +394,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© 2025 DALAT 1893. All rights reserved.</p>
+      <p>© 2024 DALAT 1893. All rights reserved.</p>
       <p data-i18n="footer.bottom">大叻 · 越南 · 云雾高原</p>
     </div>
   </div>
@@ -464,18 +413,25 @@
       <p class="cart-empty-sub" data-i18n="cart.empty.sub">探索我们的礼品系列</p>
     </div>
   </div>
-  <div class="cart-footer" id="cartFooter" style="display:none">
+  <div class="cart-footer" id="cartFooter" style="display:none;">
     <div class="cart-total">
       <span data-i18n="cart.subtotal">小计</span>
       <strong id="cartTotal">¥0</strong>
     </div>
     <p class="cart-note" data-i18n="cart.note">* 最终价格含国际运费，结算时确认</p>
     <button class="btn-primary btn-full" data-i18n="cart.checkout">立即结算</button>
-    <button class="btn-ghost btn-full" style="margin-top:8px" data-i18n="cart.continue">继续购物</button>
+    <br/><br/>
+    <button class="btn-ghost btn-full" onclick="closeCart()" data-i18n="cart.continue" style="border-color:var(--border);color:var(--text-light);">继续购物</button>
   </div>
 </div>
 
 <!-- ===== PRODUCT MODAL ===== -->
 <div class="modal-overlay" id="modalOverlay"></div>
 <div class="product-modal" id="productModal">
-  <button class="modal-close" id="modalClose">✕</butto
+  <button class="modal-close" id="modalClose">✕</button>
+  <div id="modalContent"></div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
