@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="DALAT 1893">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f3427"/>
+      <stop offset="100%" stop-color="#314f3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="990" cy="110" r="170" fill="rgba(219,194,142,0.12)"/>
+  <circle cx="190" cy="520" r="210" fill="rgba(219,194,142,0.08)"/>
+  <text x="90" y="220" fill="#dbc28e" font-family="Georgia, serif" font-size="48" letter-spacing="12">DALAT 1893</text>
+  <text x="90" y="320" fill="#f9f4eb" font-family="Georgia, serif" font-size="74">大叻伴手礼与越南高原礼盒</text>
+  <text x="90" y="395" fill="#f0e5d1" font-family="Arial, sans-serif" font-size="30">Da Lat Gifts  ·  Vietnam Gift Boxes  ·  Corporate & Wedding Favours</text>
+  <text x="90" y="500" fill="#dbc28e" font-family="Arial, sans-serif" font-size="28">Coffee  •  Honey  •  Artichoke Tea  •  International Shipping</text>
+</svg>
